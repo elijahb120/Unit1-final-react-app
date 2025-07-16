@@ -1,7 +1,7 @@
 header {
   display: flex;
   flex-direction: column;
-  background-color: green;
+  background-color: rgb(0, 66, 0);
   border: solid;
   border-width: 2px;
   border-radius: 5px;
@@ -9,12 +9,15 @@ header {
 body {
   display: flex;
   justify-content:center;
-  background-color: aliceblue;
-  
+  background-image: url("https://res.cloudinary.com/enchanting/q_70,f_auto,w_4265,h_2341,c_fit/exodus-web/2019/03/Sipoonkorpi-National-Park_AdobeStock_464550231.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
 }
 #title{
   display: flex;
   justify-content: center;
+  color: rgb(255, 255, 255);
 }
 #page-layout {
   background-color: white;
@@ -22,17 +25,18 @@ body {
   justify-content: center;
   padding: 1rem;
   flex-direction: column;
-  height: 100vh;
+  height: 90%;
   border: solid;
   border-width: 2px;
 }
 #nav-bar {
-  background-color: green;
+  background-color: rgb(0, 66, 0);
   display:flex;
   justify-content:space-around;
   list-style: none;
   height:100%;
   padding: 5px;
+  margin: 1rem;
 }
 .nav-button {
   display:flex;
@@ -46,6 +50,28 @@ body {
 
 }
 .nav-button:hover {
-opacity: 50%;
+opacity: 70%;
+background-color: moccasin;
 cursor: pointer;
+}
+#top-box {
+  display:flex;
+  justify-content: space-between;
+  margin: 4rem;
+  height: 12rem;
+   min-height: 0;
+}
+#middle-box {
+  display:flex;
+  justify-content: space-between;
+  margin: 4rem;
+  height: 12rem;
+   min-height: 0;
+}
+#bottom-box {
+  display:flex;
+  justify-content: space-between;
+  margin: 4rem;
+  height: 12rem;
+   min-height: 0;
 }
