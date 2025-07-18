@@ -4,23 +4,18 @@ export default function About() {
       <main>
         <h1 className="home-title">About Us</h1>
         <div className="home-boxes">
-            <p>
-              Camping is fun! Planning a camping trip... not so much. Camping is supposed to be fun and relaxing, CampBuddy was created to make packing and planning a little bit easier. 
-            </p>
+          <p className="top-box-text">
+            Camp Buddy strives to make going camping as easy and stress free as possible. Our interactive packing list Camping is supposed to be a time of relaxation and reconnecting with nature, not arguing over who forgot to bring the bug spray 
+          </p>
           <img src="https://www.mthigh.com/site/connect/blog/authors/john_mccolly/camping-at-mountain-high/pictures/camping-rev/fullsize"></img>
         </div>
         <div className="home-boxes">
           <img src="https://www.mthigh.com/site/connect/blog/authors/john_mccolly/camping-at-mountain-high/pictures/camping-rev/fullsize"></img>
-          <ul>
-            <li>
-              Contact us
-            </li>
-            <li>
-              Phone: 123-456-7890
-            </li>
-            <li>
-              Email: campbuddy@email.com
-            </li>
+
+          <ul id="contact">
+            <h2>Contact Us</h2>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: campbuddy@email.com</li>
           </ul>
         </div>
       </main>
